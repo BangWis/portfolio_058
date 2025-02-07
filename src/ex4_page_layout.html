@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เมนูอาหาร</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100">
+    <header class="bg-red-500 text-white text-center py-6">
+        <h1 class="text-3xl font-bold">ร้านอร่อยเด็ด</h1>
+        <p class="text-lg">ยินดีต้อนรับสู่เมนูอาหารของเรา</p>
+    </header>
+
+    <nav class="bg-gray-800 text-white">
+        <ul class="container mx-auto flex justify-center space-x-8 py-4">
+            <li><a href="#appetizers" class="hover:text-yellow-400">อาหารเรียกน้ำย่อย</a></li>
+            <li><a href="#main-dishes" class="hover:text-yellow-400">อาหารจานหลัก</a></li>
+            <li><a href="#desserts" class="hover:text-yellow-400">ของหวาน</a></li>
+            <li><a href="#drinks" class="hover:text-yellow-400">เครื่องดื่ม</a></li>
+        </ul>
+    </nav>
+
+    <main class="container mx-auto mt-8">
+        <section id="appetizers" class="mb-16">
+            <h2 class="text-2xl font-bold text-center mb-6">อาหารเรียกน้ำย่อย</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://s359.kapook.com/pagebuilder/14d11bd0-fcb8-4a03-80ee-05da3fc93bb0.jpg" alt="ปอเปี๊ยะทอด" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">ปอเปี๊ยะทอด</h3>
+                        <p class="text-gray-700">กรอบอร่อย เสิร์ฟพร้อมน้ำจิ้มหวาน</p>
+                        <span class="text-red-500 font-bold">฿35</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://www.unileverfoodsolutions.co.th/th/chef-inspiration/simple-tips-for-great-flavour/somtum-green-papaya-salad-recipes/jcr:content/parsys/content-aside-footer/tipsandadvice_953595_984236123/image.img.jpg/1695118740332.jpg" alt="ส้มตำปูปลาร้า" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">ส้มตำปูปลาร้า</h3>
+                        <p class="text-gray-700">เผ็ดแซ่บ รสชาติไทยแท้</p>
+                        <span class="text-red-500 font-bold">฿55</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-dishes" class="mb-16">
+            <h2 class="text-2xl font-bold text-center mb-6">อาหารจานหลัก</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://s.isanook.com/wo/0/ud/37/185369/food.jpg?ip/crop/w670h402/q80/jpg" alt="ผัดไทย" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">ผัดไทย</h3>
+                        <p class="text-gray-700">รสชาติกลมกล่อม เส้นนุ่มกำลังดี</p>
+                        <span class="text-red-500 font-bold">฿50</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://chefoldschool.com/wp-content/uploads/2020/05/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%81%E0%B9%88.jpg" alt="แกงเขียวหวานไก่" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">แกงเขียวหวานไก่</h3>
+                        <p class="text-gray-700">หอมเครื่องแกง เสิร์ฟพร้อมข้าวสวย</p>
+                        <span class="text-red-500 font-bold">฿40</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="text-center mb-16">
+        <button onclick="window.location.href='index.html'" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Back</button>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; ร้านอร่อยเด็ด 6640011058</p>
+        </div>
+    </footer>
+</body>
+</html>

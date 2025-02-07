@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-gradient-to-r from-orange-400 to-red-500 text-white p-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Portfolio</h1>
+            <nav class="space-x-4">
+                <a href="#profile" class="hover:underline">Profile</a>
+                <a href="#portfolio" class="hover:underline">Portfolio</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="profile" class="py-16 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-6 text-center">Profile</h2>
+            <div class="flex flex-col md:flex-row items-center bg-gray-50 p-6 rounded-lg shadow-md">
+                <img class="w-48 h-48 rounded-full border-4 border-orange-400 mb-4 md:mb-0 md:mr-8" src="https://scontent.furt3-1.fna.fbcdn.net/v/t39.30808-1/415576056_1815164818915634_6369853065395155027_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=TFls0ZOxfhsQ7kNvgEgkWxi&_nc_oc=AdikafB7ONpM-_ivXDvbCuHIyM-vF5MKKwwefOpiCMFD-_xMwDNEIbeesbBSmFuxx5c&_nc_zt=24&_nc_ht=scontent.furt3-1.fna&_nc_gid=ANfQ8uvQBF-QxtnF5Gs7Dqq&oh=00_AYBfS5K5t2tEtYtiSEvmAJQiZF0yrsefMiCEQeQGJsyGrg&oe=67AAB7C5" alt="Profile Picture">
+                <div>
+                    <p class="text-lg font-bold"><strong>นาย สวิส บุตรรักษ์</strong></p>
+                    <p>รหัสนักศึกษา: 6640011058</p>
+                    <p>Facebook: <a href="https://facebook.com" target="_blank" class="text-blue-500 hover:underline">Sawiss Butrak</a></p>
+                    <p>อายุ: 20 ปี | สัญชาติ: ไทย</p>
+                    <p>โทร: 065-686-6237</p>
+                    <p>Email: sawiss2547@gmail.com</p>
+                    <p>ที่อยู่: 42 ถนนมุสลิมอุทิศ ตำบลบ้านพรุ อำเภอหาดใหญ่ จังหวัดสงขลา 90250</p>
+                    <h2 class="text-lg font-bold ">การศึกษา</h2>
+                            <li>มัธยมศึกษาตอนปลาย: โรงเรียนส่งเสริมศาสนาวิทยามูลนิธิ - เกรดเฉลี่ย: 3.25</li>
+                            <li>ปริญญาตรี: มหาวิทยาลัยสงขลานครินทร์วิทยาเขตสุราษฎร์ธานี - เกรดเฉลี่ย: 3.17</li>
+                        </ul>
+                            <div>
+                                <h2 class="text-lg font-bold">ทักษะการใช้โปรเเกรม</h2>
+                                <p>Microsoft Office, Excel, PowerPoint,Vscode,Android Studio,Thunkable</p>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-6 text-center">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://www.amarinbabyandkids.com/app/uploads/2022/05/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7FB.jpg" alt="งานที่ 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Basic HTML - Exercise 1</h3>
+                        <button class="mt-4 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition" onclick="window.location.href='ex1_menu.html'">Go to Next Page</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://www.jobtopgun.com/article/wp-content/uploads/2023/01/resume1-1024x857.jpg" alt="งานที่ 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Form - Exercise 2</h3>
+                        <button class="mt-4 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition" onclick="window.location.href='ex2_form.html'">Go to Next Page</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw3z-vyUdxBDY7hsvMa4jH1zFYCdBfKH1alA&s" alt="งานที่ 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Box Model - Exercise 3</h3>
+                        <button class="mt-4 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition" onclick="window.location.href='ex3_box_model.html'">Go to Next Page</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKF1qwjf8316ttzpyyM97sMfJ8lU2ZRGOvzQ&s" alt="งานที่ 4" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Page Layout - Exercise 4</h3>
+                        <button class="mt-4 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition" onclick="window.location.href='ex4_page_layout.html'">Go to Next Page</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-6">Contact</h2>
+            <p>ติดต่อได้ที่ <a href="mailto:6640011058@psu.ac.th" class="text-blue-500 hover:underline">6640011058@psu.ac.th</a></p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2025 สวิส บุตรรักษ์</p>
+    </footer>
+</body>
+</html>
